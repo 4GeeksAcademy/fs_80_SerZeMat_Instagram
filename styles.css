@@ -1,0 +1,64 @@
+body{
+    background: rgb(20, 19, 19);
+    margin-left: 3.5rem;
+    margin-top: -3rem;
+}
+.size {
+    width: 100%;
+    height: auto;  
+}
+.post {
+    width: 30rem;
+    margin-top: 10%;
+    margin-left: 30%;
+    background: white;
+}
+.wrapper {
+    display: flex ;
+    align-items: center;
+}
+.post-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1rem;
+}
+.title {
+    margin-left: -20rem;
+}
+.title h1{
+    margin-bottom: 0;
+    font-size: 75%
+}
+.title p {
+    margin-top: 0;
+}
+.post-head span {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+.post-img {
+    margin: 0;
+}
+
+.post-icons {
+    display: flex;
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+    margin-right: 0.5rem;
+}
+.post-icons span {
+    cursor: pointer;
+    margin-right: 4px;
+    font-size: 1.25rem;
+}
+.post-icons span:last-child{
+    padding-right: 0;
+}    
+.description{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.bookmark {
+    margin-left: auto;
+}
